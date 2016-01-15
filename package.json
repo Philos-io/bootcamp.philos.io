@@ -10,17 +10,14 @@
   "private": true,
   "version": "0.7.2",
   "dependencies": {
-    "Casper": "TryGhost/Casper#1.2.6",
     "ghost": "0.7.2",
     "ghost-s3-storage": "~0.2.2",
-    "ncp": "^2.0.0",
     "pg": "latest"
   },
   "engines": {
     "node": "~0.10.0"
   },
   "scripts": {
-    "postinstall": "ncp node_modules/Casper content/themes/casper",
     "start": "node server.js"
   }
 }
